@@ -24,9 +24,10 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-  resolve: {
+  base: "/ips/",
+ /*  resolve: {
     alias: {
       '@': path.resolve(__dirname, './src/app'),
     },
-  },
+  }, */
 })
